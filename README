@@ -1,0 +1,21 @@
+Test::Output 1.00
+
+Make it easier to do regression testing on logs or files.
+
+                                 -*-
+
+Runs a context diff on a set of files with the expectation that
+these files will not change.
+
+                                 -*-
+
+To install, either get the L<Maker> module or just copy of the Output.pm
+file to the right directory (lib/perl5/site_perl/Test/Output.pm).
+
+Requires File::Recurse (part of File::Tools module).
+
+                                 -*-
+
+Copyright (c) 1997 Joshua Nathaniel Pritikin.  All rights reserved.
+This package is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
